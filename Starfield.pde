@@ -74,9 +74,11 @@ class wOddball extends particle{
   }
 }
 
+//true start
+
 particle [] smol = new particle [120];
 void setup(){
- frameRate(100000);
+ frameRate(60);
  cookie = loadImage("PerfectCookie.png");
  mon = loadImage("cookMon.png");
  wCookie = loadImage("whiteChoco.png");
